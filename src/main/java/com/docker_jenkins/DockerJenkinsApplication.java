@@ -19,7 +19,7 @@ public class DockerJenkinsApplication {
 
         @GetMapping("/{name}")
         public ResponseEntity<String> askQuestion(@PathVariable String name){
-            return ResponseEntity.ok("Hey " + name + " Welcome to CI-CD pipeline from Git-GitHub-Jenkins-Maven-Docker, from author Omar, btw do you like pudding?");
+            return ResponseEntity.ok("Hey " + name + " Welcome to CI-CD pipeline, btw do you like pudding?");
         }
     }
 
